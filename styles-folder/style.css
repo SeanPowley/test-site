@@ -1,2 +1,9 @@
-p{color: red;}
-li,h1{color: red;}
+p{color: black;}
+li,h1{color: blueviolet;}
+html {font-size: 20px;
+    font-family:"Roboto"}
+h1{font-size: 60px;
+    text-align: center;}
+p, li {font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;}       
