@@ -8,3 +8,10 @@ myImage.onclick = function() {
         myImage.setAttribute('src','images-folder/test-site.jpg1.jpg');
     }
 }    
+let myButton = document.querySelector('button')
+let myHeading = document.querySelector('h1');
+function setUserName() {
+    let myName = prompt('Please enter our name.');
+    localStorage.setItem('name' myName);
+    myHeading.textContent = 'Foxes are console,' +myName;
+} 
