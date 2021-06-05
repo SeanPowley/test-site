@@ -11,7 +11,7 @@ myImage.onclick = function() {
 let myButton = document.querySelector('button')
 let myHeading = document.querySelector('h1');
 function setUserName() {
-    let myName = prompt('PLease enter your name.');
+    let myName = prompt('Please enter your name.');
     if(!myName) {
         setUserName();
     } else {
