@@ -1,5 +1,7 @@
 p{color: black;}
-li,h1{color: blueviolet;}
+li,h1{color: 
+    rgba(255, 0, 255, 0.5);
+}
 html {font-size: 20px;
     font-family:"Roboto"}
 h1{font-size: 60px;
