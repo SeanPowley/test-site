@@ -9,7 +9,9 @@ h1{font-size: 60px;
 p, li {font-size: 16px;
     line-height: 2;
     letter-spacing: 1px;}       
-html { background-color: #E6A05A;}
+html { 
+    background: linear-gradient(35deg, red, blue)
+}
 body { width: 600px;
     margin: 0 auto;
     background-color:cyan;
